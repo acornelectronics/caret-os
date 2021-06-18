@@ -1,0 +1,68 @@
+
+     /`\           /`````\   /``````)
+    /   \    _ _  |  /`\  | |  (````
+   /  ^  \  !_ _! | |   | |  \  ````\
+  /  / \  \       |  \_/  |   ````)  |
+ /_ /   \ _\       \_ _ _/   (````_ /
+
+ Copyright (C) 2020 Acorn Electronics
+
+caret-os v3.2.1
+
+shuttle ID: Millenium Fircon
+
+checking memory... 2 banks @ 0.78mb
+
+error! allocating address 0xe9a2a8... append
+
+timestamp: 1262960592
+external temperature... 420K
+fuel remaining... 3 banks @ 96%
+initializing guidance systems... coordinates null
+detonating distress signal.... success
+
+timestamp: 1464929192
+internal temperature... 360K
+thrusters engaged @ 9001% - control panel
+
+timestamp: 1565913512
+warning! fuel remaining... 2 banks @ 69%
+estimated shuttle velocity... 0.0064 ly/d
+
+timestamp: 1572225032
+data signal received...
+{
+46a956073327332733a97631333963e5b285a8a4c9a1a1a6a541a439a000699e62d163d060d5
+69d24ea3a9ffffc16b417cb9aeb638b07161b468ccc1
+}
+
+error! system file ec.c corrupt... dumping help file
+{
+ICAgICAgICAgX18gXyBfIF8gXyBfIF8gXwogICAgICAgIC8gICAgICAgICAgICAgICAgfAogICAg
+ICAgLyAgICAgICAgICAgX18gXyBffAogICAgICAvICAgIC9efCAgICAhXyBfIF8KICAgICAvICAg
+IC9fX3wgICAgICAgICAgfAogICAgLyAgICAgICAgICAgICAgXyBfIF98CiAgIC8gICAgIF8gX18g
+ICAgICFfIF8gX18KICAvICAgICAvICAgIHwgICAgICAgICAgIHwKIC9fIF8gXy8gICAgIHxfIF8g
+XyBfIF8gX3wKCiAgICAgQWNvcm4gRWxlY3Ryb25pY3MKCkNSQy00LVhPUgpFcnJvciBDb3JyZWN0
+aW9uIENvZGUKClByZXJlcXVpc2l0ZToKSW4gYmluYXJ5IHN5c3RlbXMgZGF0YSBpcyByZXByZXNl
+bnRlZCBpbiAxcyBhbmQgMHMgY2FsbGVkIEJpdHMuCkEgc2VxdWVuY2Ugb2YgYml0cyBpcyBjYWxs
+ZWQgYSBiaXQgU3RyaW5nLgpBIHN0cmluZyBvZiA0IGJpdHMgaXMgYSBOaWJibGUuCkEgc3RyaW5n
+IG9mIDggYml0cyBpcyBhIEJ5dGUuCgpFbmNvZGluZzoKRWFjaCBkYXRhIGJ5dGUgaXMgc3BsaXQg
+aW50byAyIDRiaXQgbmliYmxlcy4KU3RyaW5nIHRvZ2V0aGVyIHRoZSBtb3N0IHNpZ25pZmljYW50
+IG5pYmJsZXMgKE1TTikuClN0cmluZyB0b2dldGhlciB0aGUgbGVhc3Qgc2lnbmlmaWNhbnQgbmli
+YmxlcyAoTFNOKS4KTm90ZTogVGhpcyByZWR1Y2VzIHRoZSBjaGFuY2VzIG9mIGJvdGggbmliYmxl
+cyBnZXR0aW5nIGNvcnJ1cHRlZC4KUmVzdWx0OiBbTVNOc11bTFNOc10KCk9uIGVhY2ggZGF0YSBi
+eXRlIHBlcmZvcm0gYSBDeWNsaWMgUmVkdW5kYW5jeSBDaGVjayAoQ1JDKSB3aXRoIGEgNGJpdCBy
+ZW1haW5kZXIKdXNpbmcgdGhlIHByaW1lIG51bWJlciAxOSAoMHgxMykuIFN0cmluZyB0aGUgcmVt
+YWluZGVyIG5pYmJsZXMgdG9nZXRoZXIuCk5vdGU6IFRoZXNlIG5pYmJsZXMgd2lsbCBiZSB1c2Vk
+IGZvciBlcnJvciBkZXRlY3Rpb24uClJlc3VsdDogW01TTnNdW0xTTnNdW0NSQ3NdCgpGb3IgZWFj
+aCBkYXRhIGJ5dGUgcGVyZm9ybSBhbiBFeGNsdXNpdmUgT1IgKFhPUikgaW5jbHVkaW5nIHRoZSBt
+b3N0IHNpZ25pZmljYW50IG5pYmJsZSwKbGVhc3Qgc2lnbmlmaWNhbnQgbmliYmxlLCBhbmQgQ1JD
+IHJlbWFpbmRlci4gU3RyaW5nIHRoZSBwcm9kdWN0IG5pYmJsZXMgdG9nZXRoZXIuCk5vdGU6IFRo
+ZXNlIG5pYmJsZXMgd2lsbCBiZSB1c2VkIGZvciBlcnJvciBjb3JyZWN0aW9uLgpSZXN1bHQ6IFtN
+U05zXVtMU05zXVtDUkNzXVtYT1JzXQo=
+}
+
+initializing guidance systems - control panel
+fuel level... 32%
+
+transmitting caret.log.....

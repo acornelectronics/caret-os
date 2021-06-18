@@ -1,0 +1,37 @@
+         __ _ _ _ _ _ _ _
+        /                |
+       /           __ _ _|
+      /    /^|    !_ _ _
+     /    /__|          |
+    /              _ _ _|
+   /     _ __     !_ _ __
+  /     /    |           |
+ /_ _ _/     |_ _ _ _ _ _|
+
+     Acorn Electronics
+
+CRC-4-XOR
+Error Correction Code
+
+Prerequisite:
+In binary systems data is represented in 1s and 0s called Bits.
+A sequence of bits is called a bit String.
+A string of 4 bits is a Nibble.
+A string of 8 bits is a Byte.
+
+Encoding:
+Each data byte is split into 2 4bit nibbles.
+String together the most significant nibbles (MSN).
+String together the least significant nibbles (LSN).
+Note: This reduces the chances of both nibbles getting corrupted.
+Result: [MSNs][LSNs]
+
+On each data byte perform a Cyclic Redundancy Check (CRC) with a 4bit remainder
+using the prime number 19 (0x13). String the remainder nibbles together.
+Note: These nibbles will be used for error detection.
+Result: [MSNs][LSNs][CRCs]
+
+For each data byte perform an Exclusive OR (XOR) including the most significant nibble,
+least significant nibble, and CRC remainder. String the product nibbles together.
+Note: These nibbles will be used for error correction.
+Result: [MSNs][LSNs][CRCs][XORs]
