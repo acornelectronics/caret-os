@@ -1,0 +1,27 @@
+         __ _ _ _ _ _ _ _
+        /                |
+       /           __ _ _|
+      /    /^|    !_ _ _
+     /    /__|          |
+    /              _ _ _|
+   /     _ __     !_ _ __
+  /     /    |           |
+ /_ _ _/     |_ _ _ _ _ _|
+
+     Acorn Electronics
+
+(XOR-4-CRC)^2
+Exclusive OR - 4 Bit - Cyclic Redundancy Check ^ Squared
+Error Detection & Correction Code
+
+Prerequisite:
+CRC-4-XOR
+
+Encoding:
+Similar to CRC-4-XOR
+Format: [MSNs][LSNs][XORs][CRCs]
+
+CRCs now operate on all 3 preceding nibbles.
+XORs remain including CRC nibble.
+
+Notable improvement on Hamming distances.
