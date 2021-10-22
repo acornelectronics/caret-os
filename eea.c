@@ -1,7 +1,6 @@
 //Extended Euclidean Algorithm
 //n*s+e*t = gcd(n,e)
-//*array must be of length >=3
-int *eea(int *array,int n,int e){
+int *eea(int n,int e){
     //q = quotient, r = remainder
     int a[64],b[64],q[64],r[64],
     s1[64],s2[64],s3[64],
